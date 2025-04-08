@@ -6,7 +6,7 @@ public class RandomVariable {
         System.out.println("The code is generate the random variable");
         System.out.print("Enter First Number : ");
         int min = sc.nextInt();
-        System.out.print("Enetr Second Number : ");
+        System.out.print("Enter Second Number : ");
         int max = sc.nextInt();
         System.out.print("Random value of between "+min+" to "+max+" : ");
         int b = (int)(Math.random()*(max-min+1)+min);

@@ -6,6 +6,8 @@ public class ReturnType {
 
     }
     public static void main(String[] args) {
-        sum(34,16);
+
+        System.out.println(sum(34,16));
+        System.out.println(sum(34,16));
     }
 }
