@@ -11,5 +11,7 @@ public class Scope {
     }
     public static void fun(){
         System.out.println(i);
+        int i = 70;
+        System.out.println(i);
     }
 }
