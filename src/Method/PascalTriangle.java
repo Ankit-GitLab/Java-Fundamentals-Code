@@ -14,18 +14,18 @@ public class PascalTriangle {
         int n = sc.nextInt();
 
         for(int i=0; i<=n; i++){
-            for(int j=0; j<=i; j++) {
+            for(int j=0; j<=n-i; j++) {
 
-                System.out.print(" ");
+                System.out.print("  ");
             }
+
+              for(int j=0; j<=i; j++) {
+
+                  int icj = fact(i) / (fact(j) * fact(i - j));
+                  System.out.print(icj+"   ");
+              }
             System.out.println();
         }
-        for(int i=0; i<=n; i++){
-            for(int j=0; j<=i; j++) {
-                int icj = fact(i) / (fact(j) * fact(i-j));
-                System.out.print(icj+" ");
-            }
-            System.out.println();
-        }
+        sc.close();
     }
 }
