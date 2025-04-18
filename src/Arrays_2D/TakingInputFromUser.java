@@ -8,7 +8,7 @@ public class TakingInputFromUser {
             for(int j=0; j<arr[i].length; j++){ // column
                 System.out.print(arr[i][j]+"  ");
             }
-            git stautsSystem.out.println();
+            System.out.println();
         }
     }
     public static void main(String[] args) {
