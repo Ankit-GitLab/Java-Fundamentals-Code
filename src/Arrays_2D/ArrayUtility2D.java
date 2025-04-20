@@ -2,7 +2,7 @@ package Arrays_2D; // Package declaration
 
 import java.util.Scanner; // Import Scanner for user input
 
-public class ArrayUtility {
+public class ArrayUtility2D {
 
     // Method to input a 2D array from the user
     public static int[][] inputArray() {

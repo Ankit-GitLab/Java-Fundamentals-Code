@@ -4,7 +4,7 @@ public class SumAndAverage {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to Array Sum and Average");
-        int[][] numArray = ArrayUtility.inputArray();
+        int[][] numArray = ArrayUtility2D.inputArray();
         long sum = sum(numArray);
         double avg = average(numArray);
         System.out.println("Sum of the number is : "+sum);

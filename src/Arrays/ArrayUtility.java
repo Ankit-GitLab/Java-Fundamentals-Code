@@ -17,7 +17,7 @@ public class ArrayUtility {
             array[i] = input.nextInt();
             i++;
         }
-// Display the array using a while loop
+       // Display the array using a while loop
         System.out.println("Your array is:");
         int j = 0; // Initialize index for display loop
         while (j < array.length) {
