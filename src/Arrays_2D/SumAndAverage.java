@@ -1,14 +1,16 @@
 package Arrays_2D;
-import java.util.Scanner;
+
+import Arrays.ArrayUtility;
+
 public class SumAndAverage {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome to Array Sum and Average");
-        int[][] numArray = ArrayUtility2D.inputArray();
+
+        System.out.println("Welcome to sum and Average of 2D  Array");
+        int[][] numArray = ArrayUtility.input2DArray();
         long sum = sum(numArray);
         double avg = average(numArray);
-        System.out.println("Sum of the number is : "+sum);
-        System.out.println("Average of the number is : "+avg);
+        System.out.println("Your sum of array is : "+sum);
+        System.out.println("Your average of array is : "+avg);
 
     }
 
@@ -27,20 +29,13 @@ public class SumAndAverage {
     }
 
     public static double average(int[][] numArray) {
-        long sum = sum(numArray);
-        double count = 0;
-
-        int i = 0;
-        while (i < numArray.length) {
-            int j = 0;
-            while (j < numArray[i].length) {
-                count++; // Count each element
-                j++;
-            }
-            i++;
+        if(numArray.length == 0){
+            return 0;
         }
-
-        return (sum / count); // Proper average
+        int row = numArray.length;
+        int cols = numArray[0].length;
+        double size = row*cols;
+        return sum(numArray)/size;
     }
 
 }

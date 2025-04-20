@@ -29,6 +29,37 @@ public class ArrayUtility {
         return array; // Return the filled 1D array
     }
 
+    public static int[][] input2DArray() {
+        Scanner input = new Scanner(System.in);
+
+        int rows, columns;
+
+        System.out.print("Please enter number of rows : ");
+        rows = input.nextInt();
+
+        System.out.print("Please enter number of columns : ");
+        columns = input.nextInt();
+
+        int[][] numArray = new int[rows][columns];
+
+        for (int i = 0; i < numArray.length; i++) {
+            for (int j = 0; j < numArray[i].length; j++) {
+                System.out.print("Enter element at position (" + (i + 1) + "," + (j + 1) + "): ");
+                numArray[i][j] = input.nextInt();
+            }
+        }
+
+        System.out.println("\nYour matrix is below:");
+        for (int i = 0; i < numArray.length; i++) {
+            for (int j = 0; j < numArray[i].length; j++) {
+                System.out.print(numArray[i][j] + " ");
+            }
+            System.out.println();
+        }
+        return numArray;
+
+    }
+
     public static void displayArray(int[] numArray){
         int i = 0;
         while(i < numArray.length){
@@ -36,6 +67,8 @@ public class ArrayUtility {
            i++;
         }
         System.out.println();
+        Scanner sc = new Scanner(System.in);
+        sc.close();
     }
 
 }
