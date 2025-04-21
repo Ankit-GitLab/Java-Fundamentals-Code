@@ -1,7 +1,5 @@
 package Arrays;
 
-import javax.swing.*;
-
 public class PassingArrayToMethod {
     // arrays is passed by referrence in method
     public static void change(int[] arr){

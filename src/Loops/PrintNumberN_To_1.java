@@ -1,5 +1,4 @@
 package Loops;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 public class PrintNumberN_To_1 {
     public static void main(String[] args) {

@@ -1,7 +1,5 @@
 package Arrays;
 
-import com.sun.jdi.VoidType;
-
 public class ReverseTheArraysWithoutUsingExterArray {
     public static void print(int[] arr){
         for(int i=0; i<arr.length; i++){
