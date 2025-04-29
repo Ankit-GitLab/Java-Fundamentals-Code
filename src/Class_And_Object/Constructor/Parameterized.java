@@ -1,15 +1,15 @@
 package Class_And_Object.Constructor;
 
-class CarParameter {
+class Parameterized {
     String model;
 
     // Parameterized constructor
-    CarParameter(String m) {
+    Parameterized(String m) {
         model = m;
     }
 
     public static void main(String[] args) {
-        CarParameter myCar = new CarParameter("Honda");
+        Parameterized myCar = new Parameterized("Honda");
         System.out.println("Model: " + myCar.model);
     }
 }

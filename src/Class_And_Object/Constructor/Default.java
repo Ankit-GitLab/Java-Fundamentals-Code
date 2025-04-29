@@ -1,12 +1,12 @@
 package Class_And_Object.Constructor;
 
-class CarDefault {
+class Default {
     // Default constructor
-    CarDefault() {
+    Default() {
         System.out.println("Car object created.");
     }
 
     public static void main(String[] args) {
-        CarDefault myCar = new CarDefault();  // Constructor is called here
+        Default myCar = new Default();  // Constructor is called here
     }
 }
