@@ -15,15 +15,17 @@ public class Book {
         totalNoOfBooks = 0; // Initialize total number of books
     }
 
-    // Instance initialization block runs every time an object is created
+    //Soch le ek library hai. Har baar koi nayi book library
+    // me add hoti hai, to ek counter hota hai jo total books batata hai.
     {
         totalNoOfBooks++; // Increment total books count for each new book
     }
 
     // Constructor with all fields
     Book(String isbn, String title, String author) {
-        this.isbn = isbn;         // Set ISBN
-        this.title = title;       // Set title
+        this.isbn = isbn;         // this.isbn → ye class ka instance variable hai
+                                 // (jo class ke upar define hota hai)
+        this.title = title;
         this.author = author;     // Set author
         this.isBorrowed = false;  // Initialize isBorrowed to false
     }
