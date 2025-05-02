@@ -24,6 +24,7 @@ public class Factorial {
     // Recursive function to calculate factorial
     public static long factorial(int num) {
         // Base case: factorial of 0 or 1 is 1
+        System.out.println("Function called for: "+num);
         if (num == 0 || num == 1) {
             return 1;
         }
