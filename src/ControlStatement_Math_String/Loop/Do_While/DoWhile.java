@@ -1,4 +1,4 @@
-package ControlStatement_Math_String.Loop_Do_While;
+package ControlStatement_Math_String.Loop.Do_While;
 import java.util.Scanner;
 public class DoWhile {
     public static void main(String[] args) {
