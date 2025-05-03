@@ -8,7 +8,7 @@ public class NumberGuessingGame {
         Scanner sc = new Scanner(System.in);
 
         // Set the correct number to guess
-        int num = 5;  // You can also make this random for more fun
+        int num = 50;  // You can also make this random for more fun
         int guess;    // Variable to store user's guess
 
         // Welcome message
