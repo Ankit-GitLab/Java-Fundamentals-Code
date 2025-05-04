@@ -34,7 +34,8 @@ public class Car {
 
     // Main method to test the Car class
     public static void main(String[] args) {
-        Car swift = new Car(4, 4, 120, "Swift", "SW896", "Maruti");
+        Car swift = new Car(4, 4, 120,
+                "Swift", "SW896", "Maruti");
         System.out.println(swift);
     }
 }
