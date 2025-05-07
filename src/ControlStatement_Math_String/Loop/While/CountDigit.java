@@ -1,4 +1,4 @@
-package ControlStatement_Math_String.Loop;
+package ControlStatement_Math_String.Loop.While;
 
 public class CountDigit {
 
