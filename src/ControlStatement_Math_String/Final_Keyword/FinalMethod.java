@@ -1,11 +1,11 @@
-
 package ControlStatement_Math_String.Final_Keyword;
 
-class FinalMethod {
+public class FinalMethod {
 
-    final void show() {
-        System.out.println("Hello");
-    }
+
+final void show() {
+    System.out.println("Hello");
+}
 }
 
 class B extends FinalMethod {
@@ -22,5 +22,3 @@ class MainClass {
         obj.display(); // Calls the child class method
     }
 }
-
-
