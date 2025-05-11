@@ -6,7 +6,7 @@ public class HelloLoop {
         System.out.print("Enter a number how many time you want to print Hello : ");
         int n = sc.nextInt();
         for(int i = 1; i <= n; i++){
-            System.out.println("Hello World");
+            System.out.println("😔 Sorry for saying motki ("+i+") time");
         }
 
         sc.close();
