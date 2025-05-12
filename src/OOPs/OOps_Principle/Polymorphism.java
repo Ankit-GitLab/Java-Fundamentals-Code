@@ -8,4 +8,7 @@ package OOPs.OOps_Principle;
  *           mein employee — ek hi aadmi, alag-alag role.
  */
 public class Polymorphism {
+    public static void main(String[] args) {
+        System.out.println("Welcome (🙏) to Polymorphism..");
+    }
 }

@@ -7,5 +7,7 @@ package OOPs.OOps_Principle;
  */
 
 public class Abstraction {
-
+    public static void main(String[] args) {
+        System.out.println("Welcome (🙏) to Abstraction..");
+    }
 }

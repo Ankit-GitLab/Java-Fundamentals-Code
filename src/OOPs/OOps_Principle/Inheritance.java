@@ -6,4 +6,7 @@ package OOPs.OOps_Principle;
  *            Example socho: Beta apne papa ke properties inherit karta hai.
  */
 public class Inheritance {
+    public static void main(String[] args) {
+        System.out.println("Welcome (🙏) to Inheritance..");
+    }
 }
