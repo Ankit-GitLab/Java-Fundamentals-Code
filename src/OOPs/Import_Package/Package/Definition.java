@@ -1,4 +1,4 @@
-package OOPs.Import_Package;
+package OOPs.Import_Package.Package;
 
 /**
  * 📦 Package Definition:
@@ -12,7 +12,7 @@ package OOPs.Import_Package;
  * Example: Jaise folders mein files rakhte ho, waise hi Java mein
  * related classes ko ek package ke andar rakhte hain.
  */
-public class PackageNotes {
+public class Definition {
     public static void main(String[] args) {
         System.out.println("Welcome (🙏) to Package Definition");
     }
