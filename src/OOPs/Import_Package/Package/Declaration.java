@@ -1,7 +1,7 @@
 package OOPs.Import_Package.Package;
 
 /**
- * 📦 Package Declaration in Java (Hinglish mein)
+ * 📦 Package Declaration in Java
  * 🔹 Definition:
  * Package declaration Java file ki pehli line hoti hai jo compiler ko batati 
  * hai ki ye class kis package ke andar hai.
