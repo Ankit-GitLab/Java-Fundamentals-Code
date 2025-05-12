@@ -1,5 +1,8 @@
 package OOPs.OOps_Principle;
-//      OOps --> Object-Oriented Programming
+
+// 💡 OOPs --> Object-Oriented Programming
+// Object-Oriented Programming is a programming paradigm based on the concept of "objects".
+// 4 Main Pillars of OOPs: Encapsulation, Inheritance, Polymorphism, Abstraction
 
 public class OOpsPrinciple {
     public static void main(String[] args) {
