@@ -1,4 +1,4 @@
-package ControlStatement_Math_String.CHALLENGE;
+package LOGICAL_QUSTION;
 import java.util.*;
 
 class GuessingGame {
@@ -25,7 +25,7 @@ class GuessingGame {
         Scanner sc = new Scanner(System.in);
         GuessingGame game = new GuessingGame();
 
-        System.out.println("❤️‍🩹 Welcome to the Guessing Game!");
+        System.out.println("    ❤️‍🩹 Welcome to the Guessing Game 👉");
         System.out.println("🎯 Try to guess the number between 1 and 100\n");
 
         int guess;
