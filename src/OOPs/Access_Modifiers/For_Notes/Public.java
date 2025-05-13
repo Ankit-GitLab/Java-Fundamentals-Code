@@ -1,4 +1,4 @@
-package OOPs.Access_Modifiers;
+package OOPs.Access_Modifiers.For_Notes;
 
 /**
  * public

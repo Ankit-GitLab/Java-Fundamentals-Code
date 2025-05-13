@@ -1,4 +1,4 @@
-package OOPs.Access_Modifiers;
+package OOPs.Access_Modifiers.For_Notes;
 
 /**
  * Java mein 4 main access modifiers hote hain jo ki kisi class, method ya variable ka

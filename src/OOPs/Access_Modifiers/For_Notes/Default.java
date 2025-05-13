@@ -1,4 +1,4 @@
-package OOPs.Access_Modifiers;
+package OOPs.Access_Modifiers.For_Notes;
 
 /**
  * default (kuch bhi nahi likhte to default hota hai)
