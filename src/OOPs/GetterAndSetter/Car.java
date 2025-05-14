@@ -21,6 +21,14 @@ public class Car {
         return color;
     }
 
+    void setColor(String color){
+        if(color.equals("Yellow")){
+            System.out.println("Pagal hai kya");
+        }else {
+            this.color = color;
+         }
+    }
+
     // Getter method to return the model of the car
     public String getModel(){
         return model;
