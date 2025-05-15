@@ -16,6 +16,14 @@ public class Car {
         this.costOfPurchase = costOfPurchase;   // Set the cost of purchase
     }
 
+    public double getFuelLevel() {
+        return fuelLevel;
+    }
+
+    public void setFuelLevel(double fuelLevel) {
+        this.fuelLevel = fuelLevel;
+    }
+
     // Getter method to return the color of the car
     public String getColor(){
         return color;
