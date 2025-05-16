@@ -1,4 +1,4 @@
-package in.AnkitCoding.geomerty;
+package in.AnkitCoding.challenge77.geomerty;
 
 public class Rectangle {
 

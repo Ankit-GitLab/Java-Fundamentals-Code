@@ -1,9 +1,7 @@
-package in.AnkitCoding.utils;
+package in.AnkitCoding.challenge77.utils;
 
-import in.AnkitCoding.geomerty.Circle;
-import in.AnkitCoding.geomerty.Rectangle;
-
-import java.sql.SQLOutput;
+import in.AnkitCoding.challenge77.geomerty.Circle;
+import in.AnkitCoding.challenge77.geomerty.Rectangle;
 
 public class Calculator {
     public static void main(String[] args) {
