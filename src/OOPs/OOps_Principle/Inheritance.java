@@ -14,6 +14,6 @@ package OOPs.OOps_Principle;
 
 public class Inheritance {
     public static void main(String[] args) {
-        System.out.println("Welcome (🙏) to Inheritance..");
+        System.out.println("Welcome (🙏) to Inheritance....");
     }
 }
