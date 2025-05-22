@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.Scanner; // Import Scanner for user input
 
 public class LargestElement {
