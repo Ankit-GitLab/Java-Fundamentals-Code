@@ -3,6 +3,7 @@ package Daily_1_Question;
 class ArmstrongNumberChecker {
 
     public static void main(String[] args) {
+        System.out.println("Welcome (🙏) to check the Armstrong number\n");
 
         int number = 153;
 
@@ -14,9 +15,7 @@ class ArmstrongNumberChecker {
         }
     }
 
-    // Method to check if a number is an Armstrong number
     public static boolean isArmstrong(int num) {
-        // Store the original number for comparison later
         int originalNumber = num;
 
         // Find number of digits
