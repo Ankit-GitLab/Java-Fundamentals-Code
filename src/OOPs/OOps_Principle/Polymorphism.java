@@ -14,6 +14,7 @@ package OOPs.OOps_Principle;
  * 👉 Ek hi aadmi, lekin alag-alag roles — isse hi kehte hain polymorphism.
  *
  * 🔄 Java mein polymorphism 2 tareekon se hota hai:
+
  * 1. Compile-time (Method Overloading)
  * 2. Runtime (Method Overriding)
  */
