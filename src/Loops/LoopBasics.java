@@ -8,7 +8,7 @@ public class LoopBasics {
         System.out.print("Enter a number how many time you want to print Ankit kumar : ");
         int n = sc.nextInt();
         for(int i = 1; i <= n; i++){
-            System.out.println("Ankit Kumar");
+            System.out.println("mere moto cute hai "+i+" 💕 ");
         }
         System.out.println();
         sc.close();
