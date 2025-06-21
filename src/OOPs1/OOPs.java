@@ -26,10 +26,16 @@ class Student {
         // Can initialize default values if needed
     }
 
+    public void printInfo(String name){
+        System.out.println(name);
+    }
+    public void printInfo(int age){
+        System.out.println(age);
+    }
     // Method to print student info
-    public void printInfo() {
-        System.out.println(this.name);
-        System.out.println(this.age);
+    public void printInfo(String name, int age) {
+        System.out.println(name+" "+age);
+
     }
 
     // Copy constructor: copies data from another Student object
@@ -48,10 +54,6 @@ public class OOPs {
         s1.name = "Ankit"; // Setting name
         s1.age = 18;       // Setting age
 
-        // Creating second student object using copy constructor
-        Student s2 = new Student(s1);
-
-        // Printing s1's info
-        s2.printInfo();
+        s1.printInfo(s1.name,s1.age);
     }
 }
